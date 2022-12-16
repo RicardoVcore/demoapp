@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# deploy the dev app: ./bin/dev 
+# create controller: rails g controller "MAIN" + define the paths example : home, about.
+# Take out default landing page: routes.rb change default to this: root 'main#home'
