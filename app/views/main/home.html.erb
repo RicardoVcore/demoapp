@@ -1,2 +1,12 @@
 <h1>Main#home</h1>
 <p>Find me in app/views/main/home.html.erb</p>
+
+<div class="container">
+    <h2>Categories</h2>
+    <hr>
+    <% @categories.each do | category|%>
+    <%= category.id %>
+    <%= category.name %>
+    <hr>
+    <% end %>
+</div>
