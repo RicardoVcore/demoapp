@@ -1,6 +1,89 @@
-<h1>Main#home</h1>
-<p>Find me in app/views/main/home.html.erb</p>
+<%= stylesheet_link_tag "style.css" %>
+<br>
+<br>
+<body>
+  <main>
+    <div class="container text-center">
+      <h2 class="line-1 anim-typewriter">Full Stack Developer</h2>
+    </div>
+    <!--Projects Section - Add your websites to the cards - You can add more as a Bootstrap Deck-->
+    <div id="projects">
+      <div class="container">
+        <h1 class="text-center aboutHeading">DEVELOPMENT</h1>
+        <br>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-sm-12 ">
+                  <%= image_tag "intro.gif" %>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5 m-auto" id="projectCards">
+          <div class="col-md-6 col-lg-4 pb-3">
+            <div class="card card-custom bg-white border-white border-0">
+              <!--Enter Project Logo/Favicon here-->
+              <div class="card-custom-img" id="project1"></div>
+              <a href="#" target="_blank" class="grow">
+                <div class="card-custom-avatar">
+                  <img class="img-fluid" src="https://1.bp.blogspot.com/-sqAjIvOtpXI/XYoCmqOyMwI/AAAAAAAAJig/CowR8wgEauEs-RXN2IPmLYkC7NHoHuA3gCLcBGAsYHQ/s1600/node-js-logo.png" alt="Avatar" />
+                </div>
+              </a>
+              <div class="card-body" style="overflow-y: auto">
+                <h4 class="card-title">NODE JS / MYSQL</h4>
+                <p class="card-text">Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows JavaScript on the server side, which enables building server-side applications with JavaScript.</p>
+              </div>
+              <div class="card-footer" style="background: inherit; border-color: inherit;">
+                <a href="#" class="btn btn-info" target="_blank">View Live</a>
+                <a href="#" class="btn btn-outline-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 pb-3">
+            <div class="card card-custom bg-white border-white border-0">
+              <!--Enter Project Logo/Favicon here-->
+              <div class="card-custom-img" id="project2"></div>
+              <a href="#" target="_blank" class="grow">
+                <div class="card-custom-avatar">
+                  <img class="img-fluid" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6e0d9853-1604-498d-b94c-4eccb3515a9e/d9cvdyf-75d40ed4-469d-41ce-8db6-6ecfa6b4df96.png/v1/fill/w_1600,h_1600,strp/concept_logo___ruby_by_ssaazz_d9cvdyf-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTYwMCIsInBhdGgiOiJcL2ZcLzZlMGQ5ODUzLTE2MDQtNDk4ZC1iOTRjLTRlY2NiMzUxNWE5ZVwvZDljdmR5Zi03NWQ0MGVkNC00NjlkLTQxY2UtOGRiNi02ZWNmYTZiNGRmOTYucG5nIiwid2lkdGgiOiI8PTE2MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.caO2yajAMyq_yvj-kpxUM0lY-_vnGyqr1g7FiVoP_w8" alt="Avatar" />
+                </div>
+              </a>
+              <div class="card-body" style="overflow-y: auto">
+                <h4 class="card-title">Ruby / RAILS</h4>
+                <p class="card-text">Rails, or Ruby on Rails, is a web application framework written in the Ruby programming language. It is used for building web applications and websites.</p>
+              </div>
+              <div class="card-footer" style="background: inherit; border-color: inherit;">
+                <a href="#" class="btn btn-info">View Live</a>
+                <button type="button" class="btn btn-outline-primary">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 pb-3">
+            <div class="card card-custom bg-white border-white border-0">
+              <!--Enter Project Logo/Favicon here-->
+              <div class="card-custom-img" id="portfolio"></div>
+              <a href="#">
+                <div class="card-custom-avatar">
+                  <img class="img-fluid" src="https://s3.amazonaws.com/blog.invisionapp.com/uploads/2017/10/design-systems-atlassian.png" alt="Avatar" />
+                </div>
+              </a>
+              <div class="card-body" style="overflow-y: auto">
+                <h4 class="card-title">SYSTEM ARCHITECTURE</h4>
+                <p class="card-text">System architecture is the high-level design of a system, which specifies the structure and behavior of the system as a whole. It defines the relationships and interactions between different components and subsystems within the system, as well as the interfaces and protocols for communication between them.</p>
+              </div>
+              <div class="card-footer" style="background: inherit; border-color: inherit;">
+                <a href="#" class="btn btn-info">View Live</a>
+                <button type="button" class="btn btn-outline-primary">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
 
+<!--
 <div class="container">
     <h2>Categories</h2>
     <hr>
@@ -10,3 +93,4 @@
     <hr>
     <% end %>
 </div>
+-->
